@@ -1,0 +1,46 @@
+body{
+    background-color: darkgrey;
+    animation:backgr 2s alternate infinite;
+}
+
+header{
+    background-color: rgb(111, 111, 111);
+    padding: 5px;
+    margin:-20px;
+    text-align: center;
+    border: 10px solid;
+    border-color: rgb(65, 65, 65);
+}
+
+h1{
+    background-color: rgb(111, 111, 111);
+}
+
+button{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 200px;
+    padding: 100px;
+    font-size: 100px;
+    background-color: brown;
+    cursor: pointer;
+}
+
+ul{
+    font-size: 30px;
+    font-family:monospace;
+}
+
+@-webkit-keyframes backgr{
+    from {
+        background-color: darkgrey;
+    }
+    to {
+        background-color:grey;
+    }
+}
+
+.Avert{
+    font-size: 35px;
+    font-style: italic;
+}
